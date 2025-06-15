@@ -18,7 +18,7 @@ public class Klient implements Serializable {
         list = new ArrayList<>();
     }
 
-    private Klient(int ID, String Imie, String Nazwisko, double Saldo, double Oprocentowanie) {
+    protected Klient(int ID, String Imie, String Nazwisko, double Saldo, double Oprocentowanie) {
         this.ID = ID;
         this.Imie = Imie;
         this.Nazwisko = Nazwisko;
